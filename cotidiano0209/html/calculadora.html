@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/calculadora.js"></script>
+    <link rel="stylesheet" href="../css/calculadora.css" type="text/css">
+</head>
+<body>
+    <br>
+<div class ="calculadora">
+    <h1>Calculadora</h1>
+<div class="formulario">
+        <form id="calculadora">
+        <input type="text"  id="pantalla" value="" placeholder="0"/>
+        <input type="button" name="botoneliminar" value="AC" onclick="borrar()"/>
+    <br>
+        <input type="button" name="boton7" value=" 7 " onclick="digitar('7')">
+        <input type="button" name="boton8" value=" 8 " onclick="digitar('8')"/>
+        <input type="button" name="boton9" value=" 9 " onclick="digitar('9')"/>
+        <input type="button" name="botondiv" value=" / " onclick="division()"/>
+    <br>
+        <input type="button" name="boton4" value=" 4 " onclick="digitar('4')"/>
+        <input type="button" name="boton5" value=" 5 " onclick="digitar('5')"/>
+        <input type="button" name="boton6" value=" 6 " onclick="digitar('6')"/>
+        <input type="button" name="botonmulti" value=" * " onclick=" multiplicar()"/>
+    <br>
+        <input type="button" name="boton1" value=" 1 " onclick="digitar('1')"/>
+        <input type="button" name="boton2" value=" 2 " onclick="digitar('2')"/>
+        <input type="button" name="boton3" value= " 3 " onclick="digitar('3')"/>
+        <input type="button" name="botonmas" value=" + " onclick="sumar()"/>
+    <br>
+        <input type="button" name="boton0" value=" 0 " onclick="digitar('0')"/>
+        <input type="button" name="botonpunto" value=" . " onclick="digitar('.')"/>
+        <input type="button" name="botoneigual" value=" = " onclick="igual()"/>
+        <input type="button" name="botonmenos" value=" - " onclick="restar()"/>
+</from>
+</div>
+</body>
+</html>

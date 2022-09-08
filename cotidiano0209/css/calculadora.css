@@ -1,0 +1,30 @@
+body{
+    background-image: url("../img/f3.jpg"); background-size: 100%;
+}
+h1{
+    color: rgb(122, 161, 245); font-family: cursive;
+}
+input {
+    border: 3px solid rgb(119, 161, 253); width: 30px; height: 30px; background-color: rgba(255, 255, 255, 0.847); font-family: cursive; 
+}
+.calculadora {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(133, 237, 255); 
+    width: 300px;
+    height: 250px;
+    border-radius: 25px; 
+}
+.calculadora h1{
+    text-align: center;
+}
+.formulario{
+    margin: 0 25%;
+}
+#pantalla{
+    width: 90px;
+    height: 25px;
+    text-align: right;
+}
+
